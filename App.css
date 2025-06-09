@@ -1,0 +1,26 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+
+.timer-container {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.btn-group button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
